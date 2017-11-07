@@ -1,0 +1,18 @@
+;  Enter your initialization code here
+
+Do iCheckList.$define(iCheckListValue)
+Do iCheckList.$add('Milk')
+Do iCheckList.$add('Tea')
+Do iCheckList.$add('Coffee')
+Do iCheckList.$add('Sugar')
+Do iCheckList.$add('Juice')
+Do iCheckList.$add('Eggs')
+Do iCheckList.$add('Cheese')
+Do iCheckList.$add('Bread')
+Do iCheckList.$add('Cereal')
+Do iCheckList.$add('Bacon')
+Do iCheckList.$add('Sausages')
+Do iCheckList.$add('Mushrooms')
+Do iCheckList.$sort(iCheckListValue)
+
+Do iList.$define(iListValue)
